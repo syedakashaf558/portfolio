@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kashaf Haider - Portfolio CV</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Body styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+
+        /* Header styling */
+        .header {
+            background-color: #007BFF;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Profile image styling */
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            margin-top: -75px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            animation: zoomIn 0.5s ease;
+        }
+
+        /* Container styling */
+        .container {
+            max-width: 1000px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            animation: fadeInUp 1s ease;
+        }
+
+        /* Section heading styling */
+        .section-title {
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            position: relative;
+            padding-bottom: 10px;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 50px;
+            height: 2px;
+            background-color: #007BFF;
+        }
+
+        /* List item styling */
+        .list-item {
+            background-color: #e9ecef;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            transition: background-color 0.3s ease;
+        }
+
+        .list-item:hover {
+            background-color: #cce5ff;
+        }
+
+        /* Fade-in animation */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Zoom-in animation */
+        @keyframes zoomIn {
+            from {
+                transform: scale(0);
+            }
+
+            to {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container text-center">
+            <img src="profile.jpg" alt="Kashaf Haider" class="profile-img">
+            <h1>Kashaf Haider</h1>
+            <p class="lead">Web Developer | Data Analyst | Freelancer</p>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <div class="container">
+
+        <!-- Contact Information -->
+        <section id="contact" class="mb-5">
+            <h2 class="section-title">Contact Information</h2>
+            <p>Phone: 0334-4447398</p>
+            <p>Email: kashaff1998@gmail.com</p>
+            <p>Date of Birth: 06/03/1998</p>
+            <p>Gender: Female</p>
+            <p>Marital Status: Married</p>
+            <p>Address: I 8 1, Street #07 Near Cricket Ground, Islamabad, Pakistan</p>
+            <p>Nationality: Pakistan</p>
+        </section>
+
+        <!-- Work Experience -->
+        <section id="experience" class="mb-5">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="list-item">
+                <h5>Careem (CRO) - Islamabad (March 2021 - October 2021)</h5>
+                <p>Customer Representative Officer</p>
+                <ul>
+                    <li>Resolving queries of Captain online and on calls.</li>
+                    <li>Resolving queries of customers online and on calls.</li>
+                </ul>
+            </div>
+            <div class="list-item">
+                <h5>High School Teacher - Islamabad (January 2023 - June 2023)</h5>
+                <p>Computer Science Teacher</p>
+                <ul>
+                    <li>Managing daily school tasks.</li>
+                    <li>Assigning and grading home tasks.</li>
+                    <li>Delivering computer science lectures and conducting practical labs.</li>
+                </ul>
+            </div>
+            <div class="list-item">
+                <h5>Online Freelancing - Islamabad (December 2022 - Till Date)</h5>
+                <p>Freelancer (Data Analyst, Amazon VA, Shopify Developer)</p>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section id="education" class="mb-5">
+            <h2 class="section-title">Education</h2>
+            <div class="list-item">
+                <h5>Bachelors of Sciences in Computer Science</h5>
+                <p>University of Central Punjab (October 2018 - October 2022)</p>
+            </div>
+            <div class="list-item">
+                <h5>Intermediate in Computer Sciences</h5>
+                <p>Punjab College For Women (September 2015 - September 2017)</p>
+            </div>
+            <div class="list-item">
+                <h5>Matric in Bio Sciences</h5>
+                <p>Islamabad Model School For Girls (March 2013 - March 2015)</p>
+            </div>
+        </section>
+
+        <!-- Certificates -->
+        <section id="certificates" class="mb-5">
+            <h2 class="section-title">Certificates</h2>
+            <ul>
+                <li class="list-item">20 Days Montessori Training Workshop (July 2017)</li>
+                <li class="list-item">One Year Diploma in Montessori Teachers Training (December 2018)</li>
+                <li class="list-item">IELTS from International Islamic University Islamabad (July 2018)</li>
+                <li class="list-item">Data Analytics and Business Intelligence (June 2023)</li>
+                <li class="list-item">Freelancing (June 2023)</li>
+            </ul>
+        </section>
+
+        <!-- Accomplishments -->
+        <section id="accomplishments" class="mb-5">
+            <h2 class="section-title">Accomplishments</h2>
+            <ul>
+                <li class="list-item">FYP: WordPress website on One Dollar Online Store</li>
+                <li class="list-item">Shopify Professional Store on Digital Technology Products</li>
+                <li class="list-item">Used Microsoft Excel to Develop Inventory Spreadsheet</li>
+            </ul>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="mb-5">
+            <h2 class="section-title">Skills</h2>
+            <ul>
+                <li class="list-item">Microsoft Word</li>
+                <li class="list-item">Microsoft Excel</li>
+                <li class="list-item">Canva Design</li>
+                <li class="list-item">Notepad++</li>
+                <li class="list-item">PowerPoint</li>
+                <li class="list-item">HTML, CSS</li>
+                <li class="list-item">WordPress Frontend</li>
+            </ul>
+        </section>
+
+        <!-- Referees -->
+        <section id="referees" class="mb-5">
+            <h2 class="section-title">Referees</h2>
+            <p>Available on Request</p>
+        </section>
+
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
